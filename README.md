@@ -1,3 +1,5 @@
+NAME :SANJEEVPRIYA
+REG NO:212224040289
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
@@ -109,13 +111,20 @@ Hello world
 hello world
  
 grep Hello newfile 
+## OUTPUT
+<img width="590" height="170" alt="Screenshot from 2025-09-07 23-32-57" src="https://github.com/user-attachments/assets/11c12fa0-3531-4829-818f-ff9ff2419523" />
+
+
+
 grep hello newfile 
 ## OUTPUT
+<img width="601" height="44" alt="Screenshot from 2025-09-07 23-34-04" src="https://github.com/user-attachments/assets/5b949d23-ec76-4e29-b38e-dd6ed8d15e50" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="601" height="44" alt="Screenshot from 2025-09-07 23-34-04" src="https://github.com/user-attachments/assets/4a61d1eb-ff20-457c-a9c1-04a1f644e793" />
 
 
 
@@ -141,6 +150,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="641" height="65" alt="Screenshot from 2025-09-07 23-37-38" src="https://github.com/user-attachments/assets/89aa29b1-a4d4-4a08-a6e1-c6ffec34bb76" />
 
 
 
@@ -354,6 +364,7 @@ seq 10 | sed '2,9c hello'
 
 
 sed -n '2,4{s/^/$/;p}' file23
+
 ## OUTPUT
 
 <img width="1246" height="111" alt="Screenshot 2025-09-07 142812" src="https://github.com/user-attachments/assets/04fb92f7-48dd-4883-b6ba-a22eda326cd2" />
@@ -374,6 +385,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+
 <img width="1237" height="99" alt="Screenshot 2025-09-07 142822" src="https://github.com/user-attachments/assets/ddb51fce-1503-4661-894c-d82683dabd72" />
 
 
@@ -388,11 +400,6 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
-
-
-
-
 
 #Using tr command
 
@@ -447,6 +454,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="899" height="150" alt="Screenshot 2025-09-08 100156" src="https://github.com/user-attachments/assets/add58401-687a-46eb-bc65-ceb8df6ac6d7" />
 
 
 cat < scriptest.sh 
